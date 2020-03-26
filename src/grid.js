@@ -9,7 +9,7 @@ const Horizontal = ({ ticks = [], y, svg }) => {
                 <Line
                     key={tick}
                     x1={'0%'}
-                    x2={'100%'}
+                    x2={'200%'}
                     y1={y(tick)}
                     y2={y(tick)}
                     strokeWidth={1}
@@ -28,7 +28,7 @@ const Vertical = ({ ticks = [], x, svg }) => {
                 <Line
                     key={index}
                     y1={'0%'}
-                    y2={'100%'}
+                    y2={'200%'}
                     x1={x(tick)}
                     x2={x(tick)}
                     strokeWidth={1}
